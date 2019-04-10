@@ -1,7 +1,7 @@
 
 .header {
 	margin-top: 40px;
-	border-bottom: 1px solid #e2e2e2;
+	border-bottom: 2px solid #e2e2e2;
 	padding-bottom: 35px;
 	float: left;
 	width: 100%;
@@ -45,21 +45,20 @@
 
 .menu ul {
 	list-style: none;
-	
 	padding: 0;
 	display: flex;
 	align-items: center;
 	background: red;
+	border-radius: 15px;
+
 }
 
-.menu li {
-	
-}
 
 .menu li a {
-	font-size: 13;
+	font-size: 19px;
 	color: #fff;
 	text-decoration: none;
 	padding: 23px 20px;
+	text-transform: uppercase;
 }
 
