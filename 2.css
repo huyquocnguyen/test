@@ -3,13 +3,159 @@
 	padding: 0px;
 }
 .container {
-	width: 100%;
-	padding-left: 30px;
-	padding-right: 30px;
-	
+	padding-right:30px;
+	padding-left:30px;
+	margin-right:auto;
+	margin-left:auto;
+	margin: 0 auto;
+
 	
 }
 
-.content {
-	background: blue;
+.trich-dan {
+	padding-top: 50px;
+	margin-right:auto;
+	margin-left:auto;
+	margin: 0 auto;
+	padding-right:20px;
+	padding-left:20px;
+	margin-bottom: 50px;
+
+	
+}
+
+.content-trichdan {
+	text-align: center;
+	font-style: italic;
+	text-decoration: underline;
+	font-family: Georgia;
+	font-size: 25px;
+}
+
+.slide-show {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.slide img {
+	width: 1170px;
+
+}
+
+.our-services {
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+
+.title-services {
+	
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.title-services span{
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: red;
+	padding: 8px 16px;
+	border-radius: 5px;
+}
+
+.title-services:after {
+	content: '';
+	width: 100%;
+	border: 1px solid #ddd;
+	top: 50%;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+	height: 1px;
+	box-sizing: border-box;
+	background: #ddd;
+}
+/*--------*/
+.aaa {
+	height: 30px;
+}
+
+/*--------*/
+.content-services {
+
+}
+
+.item-content {
+	width: 365px;
+	float: left;
+	margin-right: 5px;
+}
+
+.item-content:nth-last-child() {
+	margin-right: 0px;
+}
+
+.item-content i {
+	float: left;
+	margin-right: 10px;
+}
+
+.item-content p {
+	font-family: Georgia;
+	font-size: 13px;
+}
+
+.item-content a {
+	color: red;
+
+}
+
+/*content-players*/
+
+.content-players {
+	width: 100%;
+	display: inline-block;
+}
+
+.players {
+	width: 211px;
+    margin-right: 13.7px;
+    float: left;
+}
+
+.players:nth-last-child(1) {
+	margin-right: 0px;
+}
+
+.players img {
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+
+.players .name-players {
+	padding: 10px 0px;
+}
+
+.players a {
+	color: red;
+}
+
+/*------*/
+
+/*------*/
+
+.latest-work .pic {
+	width: 340px;
+	margin-right: 41px;
+}
+
+.latest-work .pic:nth-last-child(1) {
+	margin-right: 0;
 }
